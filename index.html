@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content='todo'>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" text=text/css href="index.css">
+    <meta charset="UTF-8" />
+    <meta name="description" content="todo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>todo</title>
+    <link rel="stylesheet" text="text/css" href="index.css" />
 </head>
 <body>
     <div>
-        <form method="post">
-            Task to do: <input type="text"/> <br>
-            Do before: <input type="date"/> <br>
-            <input type="submit"/>
+        <form method="post" action="">
+            Task to do: <input type="text" name="todo" required placeholder="eg go to market" /><br />
+            Do before: <input type="date" name="todate" placeholder="DD/MM/YYYY" /><br />
+            <input type="submit" value="Do it!" />
         </form>
         <p>
             Here is your todo:
@@ -22,6 +22,5 @@
             </ul>
         </p>
     </div>
-</div>
 </body>
 </html>
